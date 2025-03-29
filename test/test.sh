@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 nohup python -u tracking/run_tracker.py --seq /nas_data/lizf/HOT/dataset/test/test_HSI/ --savepath './results/' --channel_model 'models/final_whisper_35_videos_channel.pth' > nohup.test.whisper35.log 2>&1 &

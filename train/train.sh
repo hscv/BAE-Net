@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=3 nohup python -u pretrain/train_mdnet.py --dataset /nas_data/lizf/HOT/dataset/train/ > nohup.train.log 2>&1 &
